@@ -12,6 +12,25 @@
     background:#f7f7fb;
     color:#222;
     line-height:1.6;
+    scroll-behavior:smooth;
+  }
+
+  /* NAVBAR (added only) */
+  nav{
+    position:sticky;
+    top:0;
+    background:white;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:15px;
+    border-bottom:1px solid #eee;
+  }
+
+  nav a{
+    text-decoration:none;
+    color:#222;
+    font-weight:bold;
   }
 
   .container{
@@ -44,22 +63,33 @@
 
 <body>
 
+<!-- NAVBAR -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#work">What I Do</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
 <div class="container">
 
   <!-- HEADER -->
-  <h1>Mahima Nema</h1>
-  <p><b>Data Analyst | Turning Data into Business Decisions</b></p>
+  <div id="home">
+    <h1>Mahima Nema</h1>
+    <p><b>Data Analyst | Turning Data into Business Decisions</b></p>
 
-  <p>
-    I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
-  </p>
+    <p>
+      I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
+    </p>
 
-  <p class="skills">
-    Python SQL Excel Power BI Tableau EDA Statistics AWS Snowflake
-  </p>
+    <p class="skills">
+      Python SQL Excel Power BI Tableau EDA Statistics AWS Snowflake
+    </p>
+  </div>
 
   <!-- ABOUT -->
-  <h2>About</h2>
+  <h2 id="about">About</h2>
   <p>
     Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights. I believe data helps identify patterns, trends, and opportunities for better decision-making.
   </p>
@@ -69,14 +99,14 @@
   </p>
 
   <!-- WHAT I DO -->
-  <h2>What I Do</h2>
+  <h2 id="work">What I Do</h2>
 
   <p><b>Data Analysis</b> — SQL, Python, Statistics to find insights</p>
   <p><b>Data Visualization</b> — Power BI, Tableau dashboards</p>
   <p><b>Business Analysis</b> — Connecting data with business decisions</p>
 
   <!-- PROJECTS -->
-  <h2>Projects</h2>
+  <h2 id="projects">Projects</h2>
 
   <p><b>Loan Approval Prediction</b><br>
   Built ML model with 83% accuracy using Naive Bayes.</p>
@@ -91,7 +121,7 @@
   Explored content distribution across genres and countries.</p>
 
   <!-- CONTACT -->
-  <h2>Contact</h2>
+  <h2 id="contact">Contact</h2>
 
   <p>Email: mahimanema2025@gmail.com</p>
   <p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
