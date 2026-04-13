@@ -9,8 +9,7 @@
 <style>
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #ffffff;
+    font-family: Arial, sans-serif;
     color: #1e293b;
 }
 
@@ -18,7 +17,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     padding: 20px;
     background: white;
     position: sticky;
@@ -29,7 +28,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #1e293b;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 /* HERO */
@@ -40,16 +39,16 @@ nav a {
 }
 
 .hero h1 {
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .hero p {
     max-width: 700px;
     margin: auto;
-    color: #64748b;
+    color: #475569;
 }
 
-/* SECTIONS */
+/* SECTION */
 .section {
     max-width: 1000px;
     margin: auto;
@@ -65,19 +64,13 @@ h2 {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    gap: 20px;
 }
 
 .card {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
     border: 1px solid #eee;
-    transition: 0.3s;
-}
-
-.card:hover {
-    box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* FOOTER */
@@ -92,7 +85,7 @@ h2 {
 
 <body>
 
-<!-- NAVBAR -->
+<!-- NAV -->
 <nav>
 <a href="#">Home</a>
 <a href="#">Portfolio</a>
@@ -102,10 +95,10 @@ h2 {
 
 <!-- HERO -->
 <div class="hero">
-<h1>Hello, Welcome to Mahima's Portfolio!</h1>
+<h1>Hello, <br>Welcome to Mahima’s Portfolio!</h1>
 
 <p>
-I am a data-driven analyst transforming complex data into actionable insights for informed business decisions.
+I am a data-driven analyst transforming raw data into meaningful insights that support smarter business decisions.
 <br><br>
 #Data_Analyst #SQL #Python #PowerBI #DataVisualization
 </p>
@@ -115,13 +108,16 @@ I am a data-driven analyst transforming complex data into actionable insights fo
 <div class="section">
 <h2>Data Explorer</h2>
 
-<p style="text-align:center; max-width:800px; margin:auto;">
-Hi, I am Mahima. I believe data is one of the most powerful resources.  
-With skills in SQL, Python, Excel, and Power BI, I analyze and visualize data to uncover meaningful insights.
+<p style="text-align:center;">
+Hi, I am Mahima. I am passionate about exploring data and uncovering the stories hidden within it. I believe data is one of the most valuable assets in today’s world, capable of driving impactful decisions and innovation.
+<br><br>
+With a strong foundation in data analysis, visualization, and statistical techniques, I work with tools like SQL, Python, Excel, and Power BI to extract insights and present them effectively.
+<br><br>
+I enjoy diving deep into datasets, identifying patterns, and translating complex information into clear, actionable insights that help businesses grow and make better decisions.
 </p>
 </div>
 
-<!-- SKILLS -->
+<!-- WHAT I DO -->
 <div class="section">
 <h2>What I Do</h2>
 
@@ -129,17 +125,17 @@ With skills in SQL, Python, Excel, and Power BI, I analyze and visualize data to
 
 <div class="card">
 <h3>Data Analysis</h3>
-<p>Analyzing datasets to uncover patterns, trends, and insights.</p>
+<p>I analyze data to identify patterns, trends, and meaningful insights.</p>
 </div>
 
 <div class="card">
 <h3>Data Visualization</h3>
-<p>Creating dashboards and reports using Power BI.</p>
+<p>I create dashboards using Power BI to simplify complex data.</p>
 </div>
 
 <div class="card">
 <h3>Business Analysis</h3>
-<p>Turning insights into strategic business decisions.</p>
+<p>I turn data insights into business strategies and decisions.</p>
 </div>
 
 </div>
@@ -153,31 +149,33 @@ With skills in SQL, Python, Excel, and Power BI, I analyze and visualize data to
 
 <div class="card">
 <h3>Loan Approval Prediction</h3>
-<p>Machine learning model with 82% accuracy using Python.</p>
+<p>Built ML model with 82% accuracy using Python.</p>
 </div>
 
 <div class="card">
 <h3>RFM Customer Segmentation</h3>
-<p>Segmented 5000+ customers for targeted marketing.</p>
+<p>Segmented 5000+ customers for better targeting.</p>
+</div>
+
+<div class="card">
+<h3>Data Cleaning & Visualization</h3>
+<p>Performed EDA and created visual insights using Python.</p>
 </div>
 
 </div>
 </div>
 
-<!-- ABOUT ME -->
+<!-- ABOUT -->
 <div class="section">
 <h2>About Me</h2>
 
-<p style="text-align:center; max-width:800px; margin:auto; line-height:1.7;">
-I am an MBA graduate in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences, with prior experience as a Network Planning Engineer at Congruex Asia Pacific LLP. <br><br>
-
-My professional journey has helped me develop a structured approach to problem-solving and a strong understanding of operational processes. During my transition into Data Analytics, I have been actively building hands-on expertise in Python, SQL, and Excel to analyze data, derive insights, and support data-driven decision-making. <br><br>
-
-With a blend of business knowledge and analytical skills, I am particularly interested in leveraging data to improve efficiency, optimize performance, and enable strategic growth. I am continuously learning and refining my skills in analytics, staying curious about emerging tools and technologies in the data space. <br><br>
-
-Open to connecting with professionals and learning continuously.
+<p style="text-align:center;">
+I am an MBA graduate in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences, with prior experience as a Network Planning Engineer at Congruex Asia Pacific LLP.
+<br><br>
+My professional journey has helped me develop a structured approach to problem-solving and a strong understanding of operational processes. During my transition into Data Analytics, I have been actively building hands-on expertise in Python, SQL, and Excel.
+<br><br>
+With a blend of business knowledge and analytical skills, I am particularly interested in leveraging data to improve efficiency and drive strategic growth.
 </p>
-
 </div>
 
 <!-- CONTACT -->
@@ -189,12 +187,11 @@ Email: mahimanema2025@gmail.com <br>
 LinkedIn: linkedin.com/in/mahima-nema-088505250 <br>
 GitHub: github.com/mahimanema2025
 </p>
-
 </div>
 
 <!-- FOOTER -->
 <div class="footer">
-<p>Thank you for visiting my portfolio 😊</p>
+<p>Thank you for visiting my portfolio 🙂</p>
 </div>
 
 </body>
