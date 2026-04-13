@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Mahima Nema | Data Analyst</title>
+<title>Mahima Nema | Portfolio</title>
 
 <style>
 body {
-    font-family: Arial;
     margin: 0;
+    font-family: Arial;
     background: #0f172a;
     color: white;
 }
 
 nav {
-    background: #020617;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
     padding: 20px;
-    text-align: center;
-    font-size: 24px;
+    background: #020617;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -33,30 +39,37 @@ nav {
 
 .hero p {
     color: #94a3b8;
+    max-width: 700px;
+    margin: auto;
 }
 
 .section {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
 h2 {
+    text-align: center;
     color: #38bdf8;
-    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .card {
     background: #1e293b;
     padding: 20px;
-    margin: 15px 0;
     border-radius: 12px;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
 }
 
-a {
-    color: #38bdf8;
-    text-decoration: none;
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
 }
 </style>
 
@@ -64,78 +77,106 @@ a {
 
 <body>
 
+<!-- NAVBAR -->
 <nav>
-Mahima Nema
+<a href="#">Home</a>
+<a href="#">Portfolio</a>
+<a href="#">About Me</a>
+<a href="#">Contact</a>
 </nav>
 
+<!-- HERO -->
 <div class="hero">
-    <h1>Data Analyst | SQL • Python • Excel • Power BI</h1>
-    <p>MBA (BFSI) | Turning data into actionable insights</p>
+<h1>Hello, Welcome to Mahima's Portfolio!</h1>
+
+<p>
+I am a data-driven analyst, transforming complex data into actionable insights for better decision making.
+<br><br>
+#Data_Analyst #SQL #Python #PowerBI #DataVisualization
+</p>
 </div>
 
+<!-- ABOUT -->
+<div class="section">
+<h2>Data Explorer</h2>
+
+<p>
+Hi, I am Mahima. I strongly believe data is one of the most powerful resources.
+With skills in SQL, Python, Excel, and Power BI, I analyze and visualize data to uncover insights.
+</p>
+
+<p>
+I enjoy working with data, finding patterns, and helping businesses make data-driven decisions.
+</p>
+</div>
+
+<!-- SKILLS -->
+<div class="section">
+<h2>What I Do</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Data Analysis</h3>
+<p>Exploring datasets to find trends, patterns, and insights.</p>
+</div>
+
+<div class="card">
+<h3>Data Visualization</h3>
+<p>Creating dashboards and reports using Power BI.</p>
+</div>
+
+<div class="card">
+<h3>Business Analysis</h3>
+<p>Using data insights to support business decisions.</p>
+</div>
+
+</div>
+</div>
+
+<!-- PROJECTS -->
+<div class="section">
+<h2>My Portfolio</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Loan Approval Prediction</h3>
+<p>Machine learning model with 82% accuracy using Python.</p>
+</div>
+
+<div class="card">
+<h3>RFM Customer Segmentation</h3>
+<p>Segmented 5000+ customers for targeted marketing.</p>
+</div>
+
+</div>
+</div>
+
+<!-- ABOUT ME -->
 <div class="section">
 <h2>About Me</h2>
-<div class="card">
+
 <p>
-MBA (BFSI, 2024) graduate with hands-on experience in SQL, Python, and Excel.
-Strong in analytics, EDA, and data storytelling. Passionate about solving business problems using data.
+I am an MBA (BFSI) graduate with strong skills in SQL, Python, Excel, and Power BI.
+I am passionate about data analytics and solving business problems using data.
 </p>
-</div>
-</div>
-
-<div class="section">
-<h2>Skills</h2>
-<div class="card">
-<p>
-SQL • Python • Pandas • NumPy • Excel • Power BI • Seaborn • Matplotlib  
-Data Cleaning • EDA • Data Visualization • RFM Analysis • Machine Learning
-</p>
-</div>
-</div>
-
-<div class="section">
-<h2>Projects</h2>
-
-<div class="card">
-<h3>
-Loan Approval Prediction 
-<a href="https://github.com/mahimanema2025" target="_blank">🔗 View</a>
-</h3>
-<p>Naive Bayes model with 82% accuracy. Visualized insights using Python.</p>
-</div>
-
-<div class="card">
-<h3>
-Retail RFM Analysis 
-<a href="https://github.com/mahimanema2025" target="_blank">🔗 View</a>
-</h3>
-<p>Segmented 5000+ customers using RFM analysis for marketing strategy.</p>
-</div>
 
 </div>
 
-<div class="section">
-<h2>Experience</h2>
-
-<div class="card">
-<h3>Data Analyst Intern</h3>
-<p>Cleaned 10k+ records, applied RFM, created visualizations.</p>
-</div>
-
-<div class="card">
-<h3>Engineer</h3>
-<p>Delivered telecom designs across 50+ U.S. cities with 98% accuracy.</p>
-</div>
-
-</div>
-
+<!-- CONTACT -->
 <div class="section">
 <h2>Contact</h2>
-<div class="card">
+
 <p>Email: mahimanema2025@gmail.com</p>
-<p><a href="https://linkedin.com/in/mahima-nema-088505250">LinkedIn</a></p>
-<p><a href="https://github.com/mahimanema2025">GitHub</a></p>
+<p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
+<p>GitHub: github.com/mahimanema2025</p>
+
 </div>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>Thank you for visiting my portfolio 😊</p>
 </div>
 
 </body>
