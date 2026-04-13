@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mahima Nema's Portfolio</title>
+<title>Mahima Nema | Portfolio</title>
 
 <style>
 body{
@@ -12,12 +12,12 @@ body{
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg,#fbe7f3,#e6f0ff,#e8fff3);
     color:#1e293b;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
-/* NAVBAR */
+/* NAVBAR (ADDED ONLY) */
 nav{
-    position: sticky;
+    position:sticky;
     top:0;
     background:white;
     display:flex;
@@ -54,18 +54,24 @@ nav a{
     font-size:32px;
 }
 
+.hero p{
+    color:#475569;
+    max-width:700px;
+    margin:auto;
+}
+
 /* SECTION */
 .section{
     max-width:1000px;
     margin:auto;
-    padding:50px 20px;
+    padding:40px 20px;
 }
 
-.title{
+.section-title{
     text-align:center;
     font-size:22px;
-    font-weight:bold;
     margin-bottom:25px;
+    font-weight:bold;
 }
 
 /* CARDS */
@@ -82,17 +88,22 @@ nav a{
     box-shadow:0 4px 10px rgba(0,0,0,0.08);
 }
 
+.card h3{
+    margin-top:0;
+}
+
 /* CONTACT */
 .contact{
     text-align:center;
     padding:20px;
 }
 </style>
+
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+<!-- NAVBAR (ADDED ONLY) -->
 <nav>
   <a href="#home">Home</a>
   <a href="#summary">Summary</a>
@@ -105,10 +116,10 @@ nav a{
 <!-- HERO -->
 <div class="hero" id="home">
 
-<img src="your-image.jpg" alt="Mahima">
+<!-- PUT YOUR IMAGE HERE -->
+<img src="your-image.jpg" alt="Mahima Nema">
 
-<h1>Mahima Nema's Portfolio</h1>
-
+<h1>Mahima Nema</h1>
 <p><b>Data Analyst | Turning Data into Business Decisions</b></p>
 
 <p>
@@ -121,9 +132,9 @@ Python SQL Excel Power BI Tableau EDA Statistics AWS Snowflake
 
 </div>
 
-<!-- SUMMARY -->
+<!-- SECTION 1 -->
 <div class="section" id="summary">
-<div class="title">Professional Summary</div>
+<div class="section-title">Professional Summary</div>
 
 <p>
 Hello, I’m Mahima Data Analyst | Turning Data into Business Decisions
@@ -138,9 +149,9 @@ I work with Python, SQL, Excel, Power BI, Tableau, Statistics, Generative AI, Ex
 </p>
 </div>
 
-<!-- ABOUT -->
+<!-- SECTION 2 -->
 <div class="section" id="about">
-<div class="title">About Me</div>
+<div class="section-title">About Me</div>
 
 <p>
 Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights. I believe data is a critical asset for organizations, as it helps identify patterns, trends, and opportunities that support informed and strategic decision-making.
@@ -151,72 +162,85 @@ I work with SQL, Python, Excel, Power BI, Tableau, and statistical methods to ha
 </p>
 
 <p>
-My goal is to translate raw and complex data into clear insights that can improve efficiency and drive business growth.
+My goal is to translate raw and complex data into clear insights that can improve efficiency and support business growth.
 </p>
 </div>
 
-<!-- EXPERTISE -->
+<!-- SECTION 3 (CARDS) -->
 <div class="section" id="expertise">
-<div class="title">Core Expertise</div>
+<div class="section-title">Core Expertise</div>
 
 <div class="cards">
 
 <div class="card">
 <h3>Data Analysis</h3>
-<p>SQL, Python, Statistics to find insights from data.</p>
+<p>
+Exploring datasets to identify patterns, trends, and insights using SQL, Python, and statistics.
+</p>
 </div>
 
 <div class="card">
 <h3>Data Visualization</h3>
-<p>Power BI & Tableau dashboards for decision making.</p>
+<p>
+Building interactive dashboards using Power BI and Tableau to simplify complex data.
+</p>
 </div>
 
 <div class="card">
 <h3>Business Analysis</h3>
-<p>Connecting data insights with business strategies.</p>
+<p>
+Connecting data insights with real business problems to support decisions.
+</p>
 </div>
 
 </div>
 </div>
 
-<!-- PROJECTS -->
+<!-- SECTION 4 (PROJECTS CARDS) -->
 <div class="section" id="projects">
-<div class="title">Projects</div>
+<div class="section-title">Projects</div>
 
 <div class="cards">
 
 <div class="card">
 <h3>Loan Approval Prediction</h3>
-<p>Built ML model with 83% accuracy using Naive Bayes.</p>
+<p>
+Built ML model with 83% accuracy using Naive Bayes.
+</p>
 </div>
 
 <div class="card">
 <h3>RFM Customer Segmentation</h3>
-<p>Analyzed 5000+ customers and identified churn risk groups.</p>
+<p>
+Analyzed 5000+ customers and identified churn risk groups.
+</p>
 </div>
 
 <div class="card">
 <h3>Zomato Data Analysis</h3>
-<p>Analyzed restaurant trends, ratings, pricing patterns.</p>
+<p>
+Analyzed restaurant trends, ratings, pricing patterns.
+</p>
 </div>
 
 <div class="card">
 <h3>Netflix Data Analysis</h3>
-<p>Explored content distribution across genres and countries.</p>
+<p>
+Explored content distribution across genres and countries.
+</p>
 </div>
 
 </div>
 </div>
 
 <!-- CONTACT -->
-<div class="section" id="contact">
-<div class="title">Contact</div>
+<div class="section contact" id="contact">
+<div class="section-title">Contact</div>
 
-<p class="contact">
-Email: mahimanema2025@gmail.com <br>
-LinkedIn: linkedin.com/in/mahima-nema-088505250 <br>
-GitHub: github.com/mahimanema2025
-</p>
+<p>Email: <b>mahimanema2025@gmail.com</b></p>
+<p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
+<p>GitHub: github.com/mahimanema2025</p>
+
 </div>
 
 </body>
