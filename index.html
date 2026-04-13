@@ -1,144 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Mahima Nema Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mahima Nema | Portfolio</title>
 
 <style>
-  body {
-    margin: 0;
+body{
+    margin:0;
     font-family: Arial, sans-serif;
-    background: #f7f7fb;
-    color: #222;
-    line-height: 1.6;
-  }
+    background: linear-gradient(135deg,#fbe7f3,#e6f0ff,#e8fff3);
+    color:#1e293b;
+}
 
-  .container {
-    max-width: 850px;
-    margin: auto;
-    padding: 40px 20px;
-  }
+/* HERO */
+.hero{
+    text-align:center;
+    padding:70px 20px 40px;
+}
 
-  h1 {
-    font-size: 36px;
-    margin-bottom: 5px;
-  }
+.hero img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
 
-  h2 {
-    margin-top: 40px;
-    font-size: 22px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-  }
+.hero h1{
+    margin:15px 0 5px;
+    font-size:32px;
+}
 
-  .subtitle {
-    color: #666;
-    margin-bottom: 20px;
-  }
+.hero p{
+    color:#475569;
+    max-width:700px;
+    margin:auto;
+}
 
-  .section {
-    margin-top: 20px;
-  }
+/* SECTION */
+.section{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
 
-  .project {
-    margin-bottom: 15px;
-  }
+.section-title{
+    text-align:center;
+    font-size:22px;
+    margin-bottom:25px;
+    font-weight:bold;
+}
 
-  .project-title {
-    font-weight: bold;
-  }
+/* CARDS */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
 
-  a {
-    color: #333;
-  }
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
 
-  a:hover {
-    color: #000;
-  }
+.card h3{
+    margin-top:0;
+}
 
-  .skills span {
-    display: inline-block;
-    background: #eee;
-    padding: 5px 10px;
-    margin: 4px;
-    border-radius: 5px;
-    font-size: 13px;
-  }
+/* CONTACT */
+.contact{
+    text-align:center;
+    padding:20px;
+}
 </style>
+
 </head>
 
 <body>
 
-<div class="container">
+<!-- HERO -->
+<div class="hero">
 
-  <!-- HEADER -->
-  <h1>Mahima Nema</h1>
-  <div class="subtitle">Data Analyst | Turning Data into Business Decisions</div>
+<!-- PUT YOUR IMAGE HERE -->
+<img src="your-image.jpg" alt="Mahima Nema">
 
-  <p>
-    I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
-  </p>
+<h1>Mahima Nema</h1>
+<p><b>Data Analyst | Turning Data into Business Decisions</b></p>
 
-  <div class="skills">
-    <span>Python</span>
-    <span>SQL</span>
-    <span>Excel</span>
-    <span>Power BI</span>
-    <span>Tableau</span>
-    <span>EDA</span>
-    <span>Statistics</span>
-    <span>AWS</span>
-    <span>Snowflake</span>
-  </div>
+<p>
+I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
+</p>
 
-  <!-- ABOUT -->
-  <h2>About</h2>
-  <p>
-    Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights.
-    I believe data helps identify patterns, trends, and opportunities for better decision-making.
-  </p>
+<p>
+Python SQL Excel Power BI Tableau EDA Statistics AWS Snowflake
+</p>
 
-  <p>
-    MBA in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences.
-    Former Network Planning Engineer at Congruex Asia Pacific LLP.
-  </p>
+</div>
 
-  <!-- WHAT I DO -->
-  <h2>What I Do</h2>
-  <p><b>Data Analysis</b> — SQL, Python, Statistics to find insights</p>
-  <p><b>Data Visualization</b> — Power BI, Tableau dashboards</p>
-  <p><b>Business Analysis</b> — Connecting data with business decisions</p>
+<!-- SECTION 1 -->
+<div class="section">
+<div class="section-title">Professional Summary</div>
 
-  <!-- PROJECTS -->
-  <h2>Projects</h2>
+<p>
+Hello, I’m Mahima Data Analyst | Turning Data into Business Decisions
+</p>
 
-  <div class="project">
-    <div class="project-title">Loan Approval Prediction</div>
-    <div>Built ML model with 83% accuracy using Naive Bayes.</div>
-  </div>
+<p>
+I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
+</p>
 
-  <div class="project">
-    <div class="project-title">RFM Customer Segmentation</div>
-    <div>Analyzed 5000+ customers and identified churn risk groups.</div>
-  </div>
+<p>
+I work with Python, SQL, Excel, Power BI, Tableau, Statistics, Generative AI, Exploratory Data Analysis (EDA), Feature Engineering, ETL, AWS, and Snowflake to analyze data and deliver impactful solutions.
+</p>
+</div>
 
-  <div class="project">
-    <div class="project-title">Zomato Data Analysis</div>
-    <div>Analyzed restaurant trends, ratings, pricing patterns.</div>
-  </div>
+<!-- SECTION 2 -->
+<div class="section">
+<div class="section-title">About Me</div>
 
-  <div class="project">
-    <div class="project-title">Netflix Data Analysis</div>
-    <div>Explored content distribution across genres and countries.</div>
-  </div>
+<p>
+Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights. I believe data is a critical asset for organizations, as it helps identify patterns, trends, and opportunities that support informed and strategic decision-making.
+</p>
 
-  <!-- CONTACT -->
-  <h2>Contact</h2>
-  <p>Email: mahimanema2025@gmail.com</p>
-  <p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
-  <p>GitHub: github.com/mahimanema2025</p>
+<p>
+I work with SQL, Python, Excel, Power BI, Tableau, and statistical methods to handle end-to-end data processes including data cleaning, transformation, analysis, and visualization.
+</p>
 
+<p>
+My goal is to translate raw and complex data into clear insights that can improve efficiency and support business growth.
+</p>
+</div>
+
+<!-- SECTION 3 (CARDS) -->
+<div class="section">
+<div class="section-title">Core Expertise</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Data Analysis</h3>
+<p>
+Exploring datasets to identify patterns, trends, and insights using SQL, Python, and statistics.
+</p>
+</div>
+
+<div class="card">
+<h3>Data Visualization</h3>
+<p>
+Building interactive dashboards using Power BI and Tableau to simplify complex data.
+</p>
+</div>
+
+<div class="card">
+<h3>Business Analysis</h3>
+<p>
+Connecting data insights with real business problems to support decisions.
+</p>
+</div>
+
+</div>
+</div>
+
+<!-- SECTION 4 (PROJECTS CARDS) -->
+<div class="section">
+<div class="section-title">Projects</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Loan Approval Prediction</h3>
+<p>
+Built ML model with 83% accuracy using Naive Bayes.
+</p>
+</div>
+
+<div class="card">
+<h3>RFM Customer Segmentation</h3>
+<p>
+Analyzed 5000+ customers and identified churn risk groups.
+</p>
+</div>
+
+<div class="card">
+<h3>Zomato Data Analysis</h3>
+<p>
+Analyzed restaurant trends, ratings, pricing patterns.
+</p>
+</div>
+
+<div class="card">
+<h3>Netflix Data Analysis</h3>
+<p>
+Explored content distribution across genres and countries.
+</p>
+</div>
+
+</div>
+</div>
+
+<!-- SECTION 5 -->
+<div class="section">
+<div class="section-title">Background</div>
+
+<p>
+I am an MBA graduate in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences, with prior experience as a Network Planning Engineer at Congruex Asia Pacific LLP.
+</p>
+
+<p>
+My professional journey has helped me develop a structured approach to problem-solving and a strong understanding of operational processes.
+</p>
+
+<p>
+I am focused on leveraging data to improve efficiency and drive strategic growth.
+</p>
+</div>
+
+<!-- CONTACT -->
+<div class="section contact">
+<div class="section-title">Contact</div>
+
+<p>Email: <b>mahimanema2025@gmail.com</b></p>
+<p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
+<p>GitHub: github.com/mahimanema2025</p>
 </div>
 
 </body>
