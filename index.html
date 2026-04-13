@@ -1,174 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mahima Nema | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahima Nema Portfolio</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #fbe7f3, #e6f0ff, #e8fff3);
-      color: #333;
-      line-height: 1.6;
-    }
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+  }
 
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-    }
+  body {
+    background: linear-gradient(135deg, #fbe7f3, #e6f0ff, #e8fff3);
+    color: #333;
+  }
 
-    .header {
-      text-align: center;
-      padding: 40px 20px;
-    }
+  /* NAVBAR */
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(255,255,255,0.8);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
 
-    .header h1 {
-      font-size: 42px;
-      margin: 0;
-    }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
 
-    .header p {
-      font-size: 18px;
-      color: #555;
-    }
+  section {
+    padding: 90px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
 
-    .section {
-      background: rgba(255,255,255,0.75);
-      margin: 20px 0;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
+  .card {
+    background: rgba(255,255,255,0.75);
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
 
-    .section h2 {
-      border-left: 5px solid #a3c4f3;
-      padding-left: 10px;
-      margin-bottom: 15px;
-    }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
 
-    .skill {
-      display: inline-block;
-      background: #dbeafe;
-      padding: 5px 10px;
-      border-radius: 20px;
-      font-size: 13px;
-      margin: 5px;
-    }
+  h2 {
+    margin-bottom: 15px;
+    border-left: 5px solid #a3c4f3;
+    padding-left: 10px;
+  }
 
-    .project-title {
-      font-weight: bold;
-      margin-top: 15px;
-    }
+  .skills span {
+    display: inline-block;
+    background: #dbeafe;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 13px;
+  }
 
-    a {
-      color: #2c3e50;
-      text-decoration: none;
-    }
+  .project-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
 
-    a:hover {
-      text-decoration: underline;
-    }
-
-    @media(max-width:600px){
-      .header h1{
-        font-size: 28px;
-      }
-    }
-  </style>
+</style>
 </head>
 
 <body>
 
-<div class="container">
+<!-- NAV -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#work">What I Do</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <!-- HEADER -->
-  <div class="header">
-    <h1>Mahima Nema</h1>
-    <p>Data Analyst | Turning Data into Business Decisions</p>
-  </div>
-
-  <!-- INTRO -->
-  <div class="section">
-    <h2>Introduction</h2>
+<!-- HOME -->
+<section id="home">
+  <h1>Mahima Nema</h1>
+  <div class="card">
+    <p><b>Data Analyst | Turning Data into Business Decisions</b></p>
     <p>
       I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
-      I work with Python, SQL, Excel, Power BI, Tableau, Statistics, Generative AI, Exploratory Data Analysis (EDA),
-      Feature Engineering, ETL, AWS, and Snowflake to analyze data and deliver impactful solutions.
     </p>
 
-    <div>
-      <span class="skill">Python</span>
-      <span class="skill">SQL</span>
-      <span class="skill">Excel</span>
-      <span class="skill">Power BI</span>
-      <span class="skill">Tableau</span>
-      <span class="skill">EDA</span>
-      <span class="skill">AWS</span>
-      <span class="skill">Snowflake</span>
+    <div class="skills">
+      <span>Python</span><span>SQL</span><span>Excel</span>
+      <span>Power BI</span><span>Tableau</span><span>EDA</span>
+      <span>AWS</span><span>Snowflake</span>
     </div>
   </div>
+</section>
 
-  <!-- ABOUT -->
-  <div class="section">
-    <h2>About Me</h2>
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
     <p>
       Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights.
-      I believe data is a critical asset for organizations, as it helps identify patterns, trends, and opportunities.
+      I believe data is a critical asset for organizations.
     </p>
 
     <p>
-      I am an MBA graduate in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences,
-      with prior experience as a Network Planning Engineer at Congruex Asia Pacific LLP.
-    </p>
-
-    <p>
-      My goal is to translate raw and complex data into clear insights that improve efficiency and drive business growth.
+      MBA in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences,
+      with experience as Network Planning Engineer at Congruex Asia Pacific LLP.
     </p>
   </div>
+</section>
 
-  <!-- WHAT I DO -->
-  <div class="section">
-    <h2>What I Do</h2>
-
-    <p><b>Data Analysis</b><br>
-    I explore data using SQL, Python, and statistics to find meaningful insights.</p>
-
-    <p><b>Data Visualization</b><br>
-    I create dashboards in Power BI and Tableau for clear storytelling.</p>
-
-    <p><b>Business Analysis</b><br>
-    I connect data insights with business problems to improve decisions.</p>
+<!-- WHAT I DO -->
+<section id="work">
+  <h2>What I Do</h2>
+  <div class="card">
+    <p><b>Data Analysis</b> – SQL, Python, Statistics for insights</p>
+    <p><b>Data Visualization</b> – Power BI & Tableau dashboards</p>
+    <p><b>Business Analysis</b> – Turning data into business decisions</p>
   </div>
+</section>
 
-  <!-- PROJECTS -->
-  <div class="section">
-    <h2>Projects</h2>
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
 
     <p class="project-title">Loan Approval Prediction</p>
-    <p>Built ML model with 83% accuracy using Naive Bayes.</p>
+    <p>ML model with 83% accuracy using Naive Bayes.</p>
 
     <p class="project-title">RFM Customer Segmentation</p>
-    <p>Segmented 5000+ customers and identified churn risk groups.</p>
+    <p>Segmentation of 5000+ customers and churn analysis.</p>
 
     <p class="project-title">Zomato Data Analysis</p>
-    <p>Analyzed restaurant trends, ratings, and pricing insights.</p>
+    <p>Restaurant trends, ratings, pricing insights.</p>
 
     <p class="project-title">Netflix Data Analysis</p>
-    <p>Studied content distribution across genres and countries.</p>
-  </div>
+    <p>Content distribution analysis across genres and countries.</p>
 
-  <!-- CONTACT -->
-  <div class="section">
-    <h2>Contact</h2>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
     <p>Email: mahimanema2025@gmail.com</p>
     <p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
     <p>GitHub: github.com/mahimanema2025</p>
   </div>
-
-</div>
+</section>
 
 </body>
 </html>
