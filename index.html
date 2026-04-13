@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mahima Nema | Portfolio</title>
 
   <style>
@@ -20,18 +20,14 @@
       padding: 40px 20px;
     }
 
-    h1, h2 {
-      color: #2c3e50;
-    }
-
     .header {
       text-align: center;
       padding: 40px 20px;
     }
 
     .header h1 {
-      font-size: 40px;
-      margin-bottom: 5px;
+      font-size: 42px;
+      margin: 0;
     }
 
     .header p {
@@ -40,7 +36,7 @@
     }
 
     .section {
-      background: rgba(255, 255, 255, 0.75);
+      background: rgba(255,255,255,0.75);
       margin: 20px 0;
       padding: 25px;
       border-radius: 15px;
@@ -53,36 +49,31 @@
       margin-bottom: 15px;
     }
 
+    .skill {
+      display: inline-block;
+      background: #dbeafe;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 13px;
+      margin: 5px;
+    }
+
     .project-title {
       font-weight: bold;
       margin-top: 15px;
     }
 
-    .contact a {
+    a {
       color: #2c3e50;
       text-decoration: none;
     }
 
-    .contact a:hover {
+    a:hover {
       text-decoration: underline;
     }
 
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 10px;
-    }
-
-    .skill {
-      background: #dbeafe;
-      padding: 5px 10px;
-      border-radius: 20px;
-      font-size: 13px;
-    }
-
-    @media (max-width: 600px) {
-      .header h1 {
+    @media(max-width:600px){
+      .header h1{
         font-size: 28px;
       }
     }
@@ -91,91 +82,93 @@
 
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <!-- HEADER -->
-    <div class="header">
-      <h1>Mahima Nema</h1>
-      <p>Data Analyst | Turning Data into Business Decisions</p>
-    </div>
-
-    <!-- INTRO -->
-    <div class="section">
-      <h2>Introduction</h2>
-      <p>
-        I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
-        I work with Python, SQL, Excel, Power BI, Tableau, Statistics, Generative AI, Exploratory Data Analysis (EDA),
-        Feature Engineering, ETL, AWS, and Snowflake to analyze data and deliver impactful solutions.
-      </p>
-
-      <div class="skills">
-        <div class="skill">Python</div>
-        <div class="skill">SQL</div>
-        <div class="skill">Excel</div>
-        <div class="skill">Power BI</div>
-        <div class="skill">Tableau</div>
-        <div class="skill">EDA</div>
-        <div class="skill">AWS</div>
-        <div class="skill">Snowflake</div>
-      </div>
-    </div>
-
-    <!-- ABOUT -->
-    <div class="section">
-      <h2>About Me</h2>
-      <p>
-        Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights.
-        I believe data is a critical asset for organizations, as it helps identify patterns, trends, and opportunities that support informed and strategic decision-making.
-      </p>
-      <p>
-        I am an MBA graduate in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences,
-        with prior experience as a Network Planning Engineer at Congruex Asia Pacific LLP.
-      </p>
-      <p>
-        My goal is to translate raw and complex data into clear insights that improve efficiency and drive business growth.
-      </p>
-    </div>
-
-    <!-- WHAT I DO -->
-    <div class="section">
-      <h2>What I Do</h2>
-
-      <p><b>🔍 Data Analysis</b><br>
-      I analyze structured and unstructured datasets using SQL, Python, and statistics to find meaningful insights.</p>
-
-      <p><b>📊 Data Visualization</b><br>
-      I build dashboards in Power BI and Tableau to present insights in a simple and visual way.</p>
-
-      <p><b>🧠 Business Analysis</b><br>
-      I connect data insights with business problems to improve decisions and performance.</p>
-    </div>
-
-    <!-- PROJECTS -->
-    <div class="section">
-      <h2>Projects</h2>
-
-      <p class="project-title">📌 Loan Approval Prediction</p>
-      <p>Built ML model using Python with 83% accuracy using Naive Bayes. Identified credit history as key factor.</p>
-
-      <p class="project-title">📌 RFM Customer Segmentation</p>
-      <p>Segmented 5000+ customers using RFM analysis and identified churn risks.</p>
-
-      <p class="project-title">📌 Zomato Data Analysis</p>
-      <p>Analyzed restaurant trends, ratings, cuisines, and pricing patterns.</p>
-
-      <p class="project-title">📌 Netflix Data Analysis</p>
-      <p>Explored content distribution across genres, countries, and release years.</p>
-    </div>
-
-    <!-- CONTACT -->
-    <div class="section contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:mahimanema2025@gmail.com">mahimanema2025@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/mahima-nema-088505250" target="_blank">View Profile</a></p>
-      <p>GitHub: <a href="https://github.com/mahimanema2025" target="_blank">View Profile</a></p>
-    </div>
-
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Mahima Nema</h1>
+    <p>Data Analyst | Turning Data into Business Decisions</p>
   </div>
+
+  <!-- INTRO -->
+  <div class="section">
+    <h2>Introduction</h2>
+    <p>
+      I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
+      I work with Python, SQL, Excel, Power BI, Tableau, Statistics, Generative AI, Exploratory Data Analysis (EDA),
+      Feature Engineering, ETL, AWS, and Snowflake to analyze data and deliver impactful solutions.
+    </p>
+
+    <div>
+      <span class="skill">Python</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Excel</span>
+      <span class="skill">Power BI</span>
+      <span class="skill">Tableau</span>
+      <span class="skill">EDA</span>
+      <span class="skill">AWS</span>
+      <span class="skill">Snowflake</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights.
+      I believe data is a critical asset for organizations, as it helps identify patterns, trends, and opportunities.
+    </p>
+
+    <p>
+      I am an MBA graduate in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences,
+      with prior experience as a Network Planning Engineer at Congruex Asia Pacific LLP.
+    </p>
+
+    <p>
+      My goal is to translate raw and complex data into clear insights that improve efficiency and drive business growth.
+    </p>
+  </div>
+
+  <!-- WHAT I DO -->
+  <div class="section">
+    <h2>What I Do</h2>
+
+    <p><b>Data Analysis</b><br>
+    I explore data using SQL, Python, and statistics to find meaningful insights.</p>
+
+    <p><b>Data Visualization</b><br>
+    I create dashboards in Power BI and Tableau for clear storytelling.</p>
+
+    <p><b>Business Analysis</b><br>
+    I connect data insights with business problems to improve decisions.</p>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <h2>Projects</h2>
+
+    <p class="project-title">Loan Approval Prediction</p>
+    <p>Built ML model with 83% accuracy using Naive Bayes.</p>
+
+    <p class="project-title">RFM Customer Segmentation</p>
+    <p>Segmented 5000+ customers and identified churn risk groups.</p>
+
+    <p class="project-title">Zomato Data Analysis</p>
+    <p>Analyzed restaurant trends, ratings, and pricing insights.</p>
+
+    <p class="project-title">Netflix Data Analysis</p>
+    <p>Studied content distribution across genres and countries.</p>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="section">
+    <h2>Contact</h2>
+    <p>Email: mahimanema2025@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
+    <p>GitHub: github.com/mahimanema2025</p>
+  </div>
+
+</div>
 
 </body>
 </html>
