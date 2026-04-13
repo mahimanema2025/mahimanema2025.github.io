@@ -1,169 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Mahima Nema Portfolio</title>
 
 <style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: Arial, sans-serif;
-  }
-
   body {
-    background: linear-gradient(135deg, #fbe7f3, #e6f0ff, #e8fff3);
-    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7fb;
+    color: #222;
+    line-height: 1.6;
   }
 
-  /* NAVBAR */
-  nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background: rgba(255,255,255,0.8);
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    z-index: 1000;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-
-  section {
-    padding: 90px 20px;
-    max-width: 1000px;
+  .container {
+    max-width: 850px;
     margin: auto;
-  }
-
-  .card {
-    background: rgba(255,255,255,0.75);
-    padding: 25px;
-    margin-top: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 40px 20px;
   }
 
   h1 {
-    font-size: 40px;
-    text-align: center;
+    font-size: 36px;
+    margin-bottom: 5px;
   }
 
   h2 {
-    margin-bottom: 15px;
-    border-left: 5px solid #a3c4f3;
-    padding-left: 10px;
+    margin-top: 40px;
+    font-size: 22px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
   }
 
-  .skills span {
-    display: inline-block;
-    background: #dbeafe;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin: 5px;
-    font-size: 13px;
+  .subtitle {
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-top: 20px;
+  }
+
+  .project {
+    margin-bottom: 15px;
   }
 
   .project-title {
     font-weight: bold;
-    margin-top: 10px;
   }
 
+  a {
+    color: #333;
+  }
+
+  a:hover {
+    color: #000;
+  }
+
+  .skills span {
+    display: inline-block;
+    background: #eee;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
 </style>
 </head>
 
 <body>
 
-<!-- NAV -->
-<nav>
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#work">What I Do</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
+<div class="container">
 
-<!-- HOME -->
-<section id="home">
+  <!-- HEADER -->
   <h1>Mahima Nema</h1>
-  <div class="card">
-    <p><b>Data Analyst | Turning Data into Business Decisions</b></p>
-    <p>
-      I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
-    </p>
+  <div class="subtitle">Data Analyst | Turning Data into Business Decisions</div>
 
-    <div class="skills">
-      <span>Python</span><span>SQL</span><span>Excel</span>
-      <span>Power BI</span><span>Tableau</span><span>EDA</span>
-      <span>AWS</span><span>Snowflake</span>
-    </div>
+  <p>
+    I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
+  </p>
+
+  <div class="skills">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>Excel</span>
+    <span>Power BI</span>
+    <span>Tableau</span>
+    <span>EDA</span>
+    <span>Statistics</span>
+    <span>AWS</span>
+    <span>Snowflake</span>
   </div>
-</section>
 
-<!-- ABOUT -->
-<section id="about">
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights.
-      I believe data is a critical asset for organizations.
-    </p>
+  <!-- ABOUT -->
+  <h2>About</h2>
+  <p>
+    Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights.
+    I believe data helps identify patterns, trends, and opportunities for better decision-making.
+  </p>
 
-    <p>
-      MBA in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences,
-      with experience as Network Planning Engineer at Congruex Asia Pacific LLP.
-    </p>
-  </div>
-</section>
+  <p>
+    MBA in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences.
+    Former Network Planning Engineer at Congruex Asia Pacific LLP.
+  </p>
 
-<!-- WHAT I DO -->
-<section id="work">
+  <!-- WHAT I DO -->
   <h2>What I Do</h2>
-  <div class="card">
-    <p><b>Data Analysis</b> – SQL, Python, Statistics for insights</p>
-    <p><b>Data Visualization</b> – Power BI & Tableau dashboards</p>
-    <p><b>Business Analysis</b> – Turning data into business decisions</p>
-  </div>
-</section>
+  <p><b>Data Analysis</b> — SQL, Python, Statistics to find insights</p>
+  <p><b>Data Visualization</b> — Power BI, Tableau dashboards</p>
+  <p><b>Business Analysis</b> — Connecting data with business decisions</p>
 
-<!-- PROJECTS -->
-<section id="projects">
+  <!-- PROJECTS -->
   <h2>Projects</h2>
-  <div class="card">
 
-    <p class="project-title">Loan Approval Prediction</p>
-    <p>ML model with 83% accuracy using Naive Bayes.</p>
-
-    <p class="project-title">RFM Customer Segmentation</p>
-    <p>Segmentation of 5000+ customers and churn analysis.</p>
-
-    <p class="project-title">Zomato Data Analysis</p>
-    <p>Restaurant trends, ratings, pricing insights.</p>
-
-    <p class="project-title">Netflix Data Analysis</p>
-    <p>Content distribution analysis across genres and countries.</p>
-
+  <div class="project">
+    <div class="project-title">Loan Approval Prediction</div>
+    <div>Built ML model with 83% accuracy using Naive Bayes.</div>
   </div>
-</section>
 
-<!-- CONTACT -->
-<section id="contact">
+  <div class="project">
+    <div class="project-title">RFM Customer Segmentation</div>
+    <div>Analyzed 5000+ customers and identified churn risk groups.</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Zomato Data Analysis</div>
+    <div>Analyzed restaurant trends, ratings, pricing patterns.</div>
+  </div>
+
+  <div class="project">
+    <div class="project-title">Netflix Data Analysis</div>
+    <div>Explored content distribution across genres and countries.</div>
+  </div>
+
+  <!-- CONTACT -->
   <h2>Contact</h2>
-  <div class="card">
-    <p>Email: mahimanema2025@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
-    <p>GitHub: github.com/mahimanema2025</p>
-  </div>
-</section>
+  <p>Email: mahimanema2025@gmail.com</p>
+  <p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
+  <p>GitHub: github.com/mahimanema2025</p>
+
+</div>
 
 </body>
 </html>
