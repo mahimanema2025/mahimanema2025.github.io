@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Mahima Nema Portfolio</title>
 
 <style>
@@ -15,32 +15,26 @@
   }
 
   .container {
-    max-width: 900px;
+    max-width: 850px;
     margin: auto;
     padding: 40px 20px;
   }
 
   h1 {
-    margin: 0;
-    font-size: 34px;
+    font-size: 36px;
+    margin-bottom: 5px;
   }
 
   h2 {
-    margin-top: 35px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #ddd;
+    margin-top: 40px;
     font-size: 22px;
-  }
-
-  h3 {
-    margin-top: 20px;
-    font-size: 18px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
   }
 
   .subtitle {
-    color: #555;
+    color: #666;
     margin-bottom: 20px;
-    font-size: 16px;
   }
 
   .section {
@@ -55,13 +49,21 @@
     font-weight: bold;
   }
 
-  .contact a {
-    color: #222;
-    text-decoration: none;
+  a {
+    color: #333;
   }
 
-  .contact a:hover {
-    text-decoration: underline;
+  a:hover {
+    color: #000;
+  }
+
+  .skills span {
+    display: inline-block;
+    background: #eee;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 13px;
   }
 </style>
 </head>
@@ -70,68 +72,72 @@
 
 <div class="container">
 
-<h1>Mahima Nema</h1>
-<div class="subtitle">Data Analyst | Turning Data into Business Decisions</div>
+  <!-- HEADER -->
+  <h1>Mahima Nema</h1>
+  <div class="subtitle">Data Analyst | Turning Data into Business Decisions</div>
 
-<h2>Section 1: Introduction</h2>
+  <p>
+    I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.
+  </p>
 
-<p>Hello, I’m Mahima Data Analyst | Turning Data into Business Decisions</p>
+  <div class="skills">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>Excel</span>
+    <span>Power BI</span>
+    <span>Tableau</span>
+    <span>EDA</span>
+    <span>Statistics</span>
+    <span>AWS</span>
+    <span>Snowflake</span>
+  </div>
 
-<p>I translate complex datasets into clear, actionable insights that support data-driven decision-making and business performance improvement.</p>
+  <!-- ABOUT -->
+  <h2>About</h2>
+  <p>
+    Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights.
+    I believe data helps identify patterns, trends, and opportunities for better decision-making.
+  </p>
 
-<p>I work with Python, SQL, Excel, Power BI, Tableau, Statistics, Generative AI, Exploratory Data Analysis (EDA), Feature Engineering, ETL, AWS, and Snowflake to analyze data and deliver impactful solutions.</p>
+  <p>
+    MBA in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences.
+    Former Network Planning Engineer at Congruex Asia Pacific LLP.
+  </p>
 
-<h2>Section 2: About Me</h2>
+  <!-- WHAT I DO -->
+  <h2>What I Do</h2>
+  <p><b>Data Analysis</b> — SQL, Python, Statistics to find insights</p>
+  <p><b>Data Visualization</b> — Power BI, Tableau dashboards</p>
+  <p><b>Business Analysis</b> — Connecting data with business decisions</p>
 
-<p>Hi, I’m Mahima. I am a Data Explorer focused on analyzing and interpreting data to uncover meaningful business insights. I believe data is a critical asset for organizations, as it helps identify patterns, trends, and opportunities that support informed and strategic decision-making. My work involves understanding business problems, exploring datasets, and applying analytical techniques to extract relevant and actionable insights.</p>
+  <!-- PROJECTS -->
+  <h2>Projects</h2>
 
-<p>I work with SQL, Python, Excel, Power BI, Tableau, and statistical methods to handle end-to-end data processes including data cleaning, transformation, analysis, and visualization. I also focus on building structured and meaningful reports that clearly communicate findings to both technical and non-technical stakeholders.</p>
+  <div class="project">
+    <div class="project-title">Loan Approval Prediction</div>
+    <div>Built ML model with 83% accuracy using Naive Bayes.</div>
+  </div>
 
-<p>My goal is to translate raw and complex data into clear insights that can improve efficiency, support decision-making, and contribute to better business outcomes.</p>
+  <div class="project">
+    <div class="project-title">RFM Customer Segmentation</div>
+    <div>Analyzed 5000+ customers and identified churn risk groups.</div>
+  </div>
 
-<h2>Section 3: What I Do</h2>
+  <div class="project">
+    <div class="project-title">Zomato Data Analysis</div>
+    <div>Analyzed restaurant trends, ratings, pricing patterns.</div>
+  </div>
 
-<h3>🔍 Data Analysis</h3>
-<p>Exploring data to uncover meaningful insights is a key part of my work. I analyze structured and unstructured datasets to identify patterns, trends, and relationships that help in understanding business problems more clearly. Using SQL, Python, and statistical techniques, I focus on turning raw data into actionable insights that support informed decision-making.</p>
+  <div class="project">
+    <div class="project-title">Netflix Data Analysis</div>
+    <div>Explored content distribution across genres and countries.</div>
+  </div>
 
-<h3>📊 Data Visualization</h3>
-<p>I believe that well-designed visuals make data easier to understand and interpret. I create interactive dashboards and reports using Power BI and Tableau to present complex datasets in a clear and structured manner. My goal is to highlight key insights in a way that helps stakeholders quickly understand trends and make better decisions.</p>
-
-<h3>🧠 Business Analysis</h3>
-<p>I approach data with a strong focus on business context and problem-solving. By analyzing datasets in detail, I extract insights that help improve processes, identify opportunities, and support strategic decision-making. My work focuses on connecting data findings with practical business outcomes.</p>
-
-<h2>Section 4: Projects</h2>
-
-<p><b>📌 Loan Approval Prediction & Analysis</b></p>
-<p>Performed exploratory data analysis to identify key factors influencing loan approval, such as credit history, income level, loan amount, and employment details. Credit history emerged as the strongest driver of approval decisions.</p>
-<p>Built a machine learning model using Python to predict loan approval outcomes based on the identified features. Achieved 83% accuracy using Naive Bayes and improved interpretability through feature analysis.</p>
-
-<p><b>📌 Retail Customer Segmentation (RFM Analysis)</b></p>
-<p>Performed customer segmentation for a retail chain using RFM (Recency, Frequency, Monetary) analysis on transaction data of 5000+ customers. Identified high-value, loyal, and at-risk customers based on behavioral patterns.</p>
-<p>Conducted churn analysis to support targeted marketing strategies and improve customer retention.</p>
-
-<p><b>📌 Zomato Data Analysis (Food Delivery Insights)</b></p>
-<p>Performed exploratory data analysis on Zomato dataset to understand restaurant trends, customer preferences, and rating patterns. Analyzed key factors such as cuisine type, location, pricing, and ratings.</p>
-<p>Derived insights on top-performing cuisines, highly rated restaurants, and cost distribution across locations to understand food delivery market behavior.</p>
-
-<p><b>📌 Netflix Data Analysis (Content Insights)</b></p>
-<p>Conducted data analysis on Netflix dataset to explore content distribution across genres, countries, and release years. Identified trends in content production and platform growth.</p>
-<p>Analyzed the balance between movies and TV shows, content ratings, and regional contributions to understand Netflix content strategy.</p>
-
-<h2>Section 5: About Me (Background)</h2>
-
-<p>I am an MBA graduate in Banking, Financial Services and Insurance from Symbiosis University of Applied Sciences, with prior experience as a Network Planning Engineer at Congruex Asia Pacific LLP.</p>
-
-<p>My professional journey has helped me develop a structured approach to problem-solving and a strong understanding of operational processes. During my transition into Data Analytics, I have been actively building hands-on expertise in Python, SQL, and Excel.</p>
-
-<p>With a blend of business knowledge and analytical skills, I am particularly interested in leveraging data to improve efficiency and drive strategic growth.</p>
-
-<h2>Section 6: Contact</h2>
-
-<p>Email: mahimanema2025@gmail.com</p>
-
-<p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
-<p>GitHub: github.com/mahimanema2025</p>
+  <!-- CONTACT -->
+  <h2>Contact</h2>
+  <p>Email: mahimanema2025@gmail.com</p>
+  <p>LinkedIn: linkedin.com/in/mahima-nema-088505250</p>
+  <p>GitHub: github.com/mahimanema2025</p>
 
 </div>
 
